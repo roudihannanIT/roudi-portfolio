@@ -6,8 +6,9 @@ export default function NavLinks() {
   const t = useTranslations("nav");
 
   const links = [
+    { label: t("home"), href: "/" },
     { label: t("about"), href: "#about" },
-    { label: t("skills"), href: "#skills" },
+    { label: t("skills"), href: "/skills" },
     { label: t("projects"), href: "#projects" },
     { label: t("books"), href: "#books" },
     { label: t("contact"), href: "#contact" },
