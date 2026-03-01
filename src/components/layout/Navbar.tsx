@@ -1,6 +1,7 @@
 import Image from "next/image";
 import NavLinks from "./NavbarLinks";
 import LanguageSwitcher from "./LanguageSwitcher";
+import MobileMenu from "./MobileMenu";
 
 export default function Navbar() {
   return (
@@ -19,8 +20,11 @@ export default function Navbar() {
         {/* Center - Links */}
         <NavLinks />
 
-        {/* Right - Language Switcher */}
-        <LanguageSwitcher />
+        {/* Right - Actions */}
+        <div className="flex items-center gap-3"> 
+          <LanguageSwitcher />
+          <MobileMenu />
+        </div>
       </nav>
     </header>
   );
