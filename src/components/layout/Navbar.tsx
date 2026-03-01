@@ -1,12 +1,13 @@
 import Image from "next/image";
 import NavLinks from "./NavbarLinks";
+import LanguageSwitcher from "./LanguageSwitcher";
 
 export default function Navbar() {
   return (
     <header className="sticky top-0 z-50 border-b border-gray-200 bg-white/80 backdrop-blur">
       <nav className="mx-auto flex h-16 max-w-7xl items-center justify-between px-6">
         
-        {/* Logo */}
+        {/* Right - Logo */}
         <Image
           src="/roudiLogo-black.png"
           alt="Logo"
@@ -15,11 +16,11 @@ export default function Navbar() {
           priority
         />
 
-        {/* Center Links */}
+        {/* Center - Links */}
         <NavLinks />
 
-        {/* Right side placeholder */}
-        <div className="w-15" />
+        {/* Right - Language Switcher */}
+        <LanguageSwitcher />
       </nav>
     </header>
   );
