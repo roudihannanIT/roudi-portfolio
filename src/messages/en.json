@@ -5,5 +5,11 @@
         "projects": "Projects",
         "books": "My Books",
         "contact": "Contact"
+    },
+    "Hero": {
+        "greeting": "Hi, I’m Roudi Hannan",
+        "title": "Software Engineer - Full-Stack Web Development",
+        "downloadCV": "Download CV",
+        "viewProjects": "View Projects"
     }
 }

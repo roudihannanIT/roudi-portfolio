@@ -5,5 +5,11 @@
         "projects": "Projekte",
         "books": "Meine Bücher",
         "contact": "Kontakt"
+    },
+    "Hero": {
+        "greeting": "Hallo, ich bin Roudi Hannan",
+        "title": "Softwareentwickler - Full-Stack Webentwicklung",
+        "downloadCV": "Lebenslauf herunterladen",
+        "viewProjects": "Projekte ansehen"
     }
 }
