@@ -1,23 +1,23 @@
 "use client";
-
-import { useState } from "react";
-
-type Language = "en" | "de";
+import { useRouter, usePathname } from "next/navigation";
 
 export default function LanguageSwitcher() {
-  const [language, setLanguage] = useState<Language>("en");
+  const router = useRouter();
+  const pathname = usePathname();
 
-  const toggleLanguage = () => {
-    setLanguage((prev) => (prev === "en" ? "de" : "en"));
+  const currentLocale = pathname.split("/")[1] || "en";
+  const nextLocale = currentLocale === "en" ? "de" : "en";
+
+  const switchLanguage = () => {
+    router.push(`/${nextLocale}${pathname.substring(3)}`);
   };
 
   return (
     <button
-      onClick={toggleLanguage}
-      className="rounded-md border border-gray-300 px-3 py-1.5 text-xs font-semibold text-gray-700 hover:bg-gray-100 transition"
-      aria-label="Toggle language"
+      onClick={switchLanguage}
+      className="px-3 py-1 border rounded text-xs font-semibold text-gray-700 hover:bg-gray-100 transition"
     >
-      {language.toUpperCase()}
+      {nextLocale.toUpperCase()}
     </button>
   );
 }

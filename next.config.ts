@@ -1,7 +1,6 @@
-import type { NextConfig } from "next";
+import nextIntl from "next-intl/plugin";
 
-const nextConfig: NextConfig = {
-  /* config options here */
-};
+/** @type {import('next').NextConfig} */
+const nextConfig = {};
 
-export default nextConfig;
+export default nextIntl()(nextConfig);

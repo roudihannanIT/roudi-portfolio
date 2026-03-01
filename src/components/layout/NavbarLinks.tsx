@@ -1,21 +1,25 @@
+"use client";
 import Link from "next/link";
-
-const NAV_LINKS = [
-  { label: "About", href: "#about" },
-  { label: "Skills", href: "#skills" },
-  { label: "Projects", href: "#projects" },
-  { label: "My Books", href: "#books" },
-  { label: "Contact", href: "#contact" },
-];
+import { useTranslations } from "next-intl";
 
 export default function NavLinks() {
+  const t = useTranslations("nav");
+
+  const links = [
+    { label: t("about"), href: "#about" },
+    { label: t("skills"), href: "#skills" },
+    { label: t("projects"), href: "#projects" },
+    { label: t("books"), href: "#books" },
+    { label: t("contact"), href: "#contact" },
+  ];
+
   return (
     <ul className="hidden md:flex items-center gap-8">
-      {NAV_LINKS.map((link) => (
-        <li key={link.label}>
+      {links.map((link) => (
+        <li key={link.href}>
           <Link
             href={link.href}
-            className="text-sm font-medium text-gray-700 hover:text-gray-900 transition-colors"
+            className="text-sm font-medium text-gray-700 hover:text-gray-900 transition"
           >
             {link.label}
           </Link>
