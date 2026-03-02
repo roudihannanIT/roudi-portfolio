@@ -23,8 +23,8 @@
       "tools": "Tools, Workflow & DevOps",
       "languages": "Sprachen"
     }
-  },
-  "projects": {
+    },
+    "projects": {
         "title": "Projekte",
         "description": "Alle Projekte ansehen",
         "project1": {
@@ -45,5 +45,22 @@
         "builtWith": "Erstellt mit Next.js & Tailwind CSS",
         "title": "Softwareentwickler",
         "title2": "Full-Stack Webentwicklung"
+    },
+    "contactPage": {
+        "title": "Kontakt aufnehmen",
+        "description": "Interessiert an einer Zusammenarbeit oder haben Sie eine Frage? Zögern Sie nicht, mich zu kontaktieren.",
+        "email": "E-Mail",
+        "linkedin": "LinkedIn",
+        "github": "GitHub",
+        "instagram": "Instagram",
+        "telegram": "Telegram",
+        "whatsapp": "WhatsApp",
+        "availability": "Verfügbar für Remote-Arbeit",
+        "emailDescription": "Für geschäftliche Anfragen.",
+        "linkedinDescription": "Professionelles Profil auf LinkedIn.",
+        "githubDescription": "Check my projects on GitHub.",
+        "instagramDescription": "Folgen Sie mir auf Instagram.",
+        "telegramDescription": "Schnellchat.",
+        "whatsappDescription": "Schnelle Antwort."
     }
 }

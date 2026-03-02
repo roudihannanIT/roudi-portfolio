@@ -45,5 +45,22 @@
         "builtWith": "Built with Next.js & Tailwind CSS",
         "title": "Software Engineer",
         "title2": "Full-Stack Web Development"
+    },
+    "contactPage": {
+        "title": "Get in Touch",
+        "description": "Interested in working together or have a question? Feel free to reach out.",
+        "email": "Email",
+        "linkedin": "LinkedIn",
+        "github": "GitHub",
+        "instagram": "Instagram",
+        "telegram": "Telegram",
+        "whatsapp": "WhatsApp",
+        "availability": "Available for remote work",
+        "emailDescription": "For business inquiries.",
+        "linkedinDescription": "Professional profile on LinkedIn.",
+        "githubDescription": "Check my projects on GitHub.",
+        "instagramDescription": "Follow me on Instagram.",
+        "telegramDescription": "Quick chat.",
+        "whatsappDescription": "Fast response."
     }
 }

@@ -10,7 +10,7 @@ export default function NavLinks() {
     { label: t("skills"), href: "/skills" },
     { label: t("projects"), href: "/projects" },
     { label: t("about"), href: "#about" },
-    { label: t("contact"), href: "#contact" },
+    { label: t("contact"), href: "/contact" },
   ];
 
   return (
