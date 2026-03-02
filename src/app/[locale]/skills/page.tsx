@@ -1,17 +1,24 @@
+"use client"
+
 import SkillsGrid from "@/components/skills/SkillsGrid";
+import { useTranslations } from "next-intl";
 
 export default function SkillPage () {
+
+    const t = useTranslations("skills");
+    
+
     return (
         <main className="min-h-screen bg-white py-20">
             <div className="mx-auto max-w-7xl px-6">
                 {/* Page Header */}
                 <div className="mb-16 text-center">
                     <h1 className="text-4xl font-bold text-gray-900">
-                        Skills & Technologies
+                        {t("title")}
                     </h1>
 
                     <p className="mt-4 text-gray-600 max-w-2xl mx-auto">
-                        Technologies and tools I use to build scalable, maintainable and modern web application.
+                        {t("description")}
                     </p>
                 </div>
 

@@ -1,19 +1,24 @@
+"use client"
+
 import { LucideIcon } from "lucide-react";
+import { useTranslations } from "next-intl";
 
 type SkillCardProps = {
-  title: string;
+  titleKey: string;
   icon: LucideIcon;
   items: string[];
   preview?: boolean;
 };
 
 export default function SkillCard({
-  title,
+  titleKey,
   icon: Icon,
   items,
   preview = false,
 }: SkillCardProps) {
   const visibleItems = preview ? items.slice(0, 3) : items;
+
+  const t = useTranslations("skills.sections");
 
   return (
     <div className="rounded-xl border border-gray-200 bg-white p-6 shadow-sm transition hover:shadow-md">
@@ -21,7 +26,7 @@ export default function SkillCard({
       <div className="mb-4 flex items-center gap-3">
         <Icon className="h-6 w-6 text-blue-600" />
         <h3 className="text-lg font-semibold text-gray-900">
-          {title}
+          {t(titleKey)}
         </h3>
       </div>
 

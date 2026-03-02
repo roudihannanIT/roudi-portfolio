@@ -12,5 +12,17 @@
         "title": "Softwareentwickler - Full-Stack Webentwicklung",
         "downloadCV": "Lebenslauf herunterladen",
         "viewProjects": "Projekte ansehen"
+    },
+    "skills": {
+    "title": "Fähigkeiten & Technologien",
+    "description": "Technologien und Tools, die ich für die Entwicklung moderner, skalierbarer Webanwendungen verwende",
+    "viewAll": "Alle Fähigkeiten ansehen",
+    "sections": {
+      "frontend": "Frontend-Entwicklung",
+      "backend": "Backend-Entwicklung",
+      "database": "Datenbanken",
+      "tools": "Tools, Workflow & DevOps",
+      "languages": "Sprachen"
     }
+  }
 }

@@ -12,5 +12,17 @@
         "title": "Software Engineer - Full-Stack Web Development",
         "downloadCV": "Download CV",
         "viewProjects": "View Projects"
+    },
+    "skills": {
+    "title": "Skills & Technologies",
+    "description": "Technologies and tools I use to build scalable, maintainable and modern web applications",
+    "viewAll": "View all skills",
+    "sections": {
+      "frontend": "Frontend Development",
+      "backend": "Backend Development",
+      "database": "Databases",
+      "tools": "Tools, Workflow & DevOps",
+      "languages": "Languages"
+     }
     }
 }
