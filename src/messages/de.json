@@ -24,5 +24,17 @@
       "tools": "Tools, Workflow & DevOps",
       "languages": "Sprachen"
     }
-  }
+  },
+  "projects": {
+        "title": "Projekte",
+        "description": "Alle Projekte ansehen",
+        "project1": {
+            "shortDescriptionKey": "Kurze Beschreibung für Projekt 1",
+            "descriptionKey": "Detaillierte Beschreibung für Projekt 1"
+        },
+        "project2": {
+            "shortDescriptionKey": "Kurze Beschreibung für Projekt 2",
+            "descriptionKey": "Detaillierte Beschreibung für Projekt 2"
+        }
+    }
 }

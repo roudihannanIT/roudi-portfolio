@@ -10,8 +10,8 @@ export default function MobileMenu() {
   
   const Nav_LINKS = [
     { label: t("about"), href: "#about" },
-    { label: t("skills"), href: "#skills" },
-    { label: t("projects"), href: "#projects" },
+    { label: t("skills"), href: "/skills" },
+    { label: t("projects"), href: "/projects" },
     { label: t("books"), href: "#books" },
     { label: t("contact"), href: "#contact" },
 ];
