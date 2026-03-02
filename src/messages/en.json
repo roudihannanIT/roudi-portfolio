@@ -62,5 +62,13 @@
         "instagramDescription": "Follow me on Instagram.",
         "telegramDescription": "Quick chat.",
         "whatsappDescription": "Fast response."
+    },
+    "aboutPage": {
+        "title": "About Me",
+        "intro": "Hi, I'm Roudi Hannan, a passionate software engineer specializing in full-stack web development. With a strong background in both frontend and backend technologies, I enjoy creating scalable and maintainable web applications that provide great user experiences.",
+        "educationTitle": "Education",
+        "certificateTitle": "Certifications",
+        "booksTitle": "My Books",
+        "availability": "Available for remote work"
     }
 }

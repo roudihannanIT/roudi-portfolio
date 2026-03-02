@@ -62,5 +62,13 @@
         "instagramDescription": "Folgen Sie mir auf Instagram.",
         "telegramDescription": "Schnellchat.",
         "whatsappDescription": "Schnelle Antwort."
+    },
+    "aboutPage": {
+        "title": "Über mich",
+        "intro": "Hallo, ich bin Roudi Hannan, ein passionierter Softwareentwickler mit Schwerpunkt auf Full-Stack Webentwicklung. Mit einem starken Hintergrund in Frontend- und Backend-Technologien genieße ich es, skalierbare und wartbare Webanwendungen zu erstellen, die großartige Benutzererfahrungen bieten.",
+        "educationTitle": "Bildung",
+        "certificateTitle": "Zertifizierungen",
+        "booksTitle": "Meine Bücher",
+        "availability": "Verfügbar für Remote-Arbeit"
     }
 }

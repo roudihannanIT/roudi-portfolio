@@ -9,7 +9,7 @@ export default function NavLinks() {
     { label: t("home"), href: "/" },
     { label: t("skills"), href: "/skills" },
     { label: t("projects"), href: "/projects" },
-    { label: t("about"), href: "#about" },
+    { label: t("about"), href: "/about" },
     { label: t("contact"), href: "/contact" },
   ];
 
