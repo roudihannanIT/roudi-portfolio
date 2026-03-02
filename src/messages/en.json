@@ -4,7 +4,6 @@
         "about": "About",
         "skills": "Skills",
         "projects": "Projects",
-        "books": "My Books",
         "contact": "Contact"
     },
     "Hero": {
@@ -36,5 +35,15 @@
             "shortDescriptionKey": "Short description for project 2",
             "descriptionKey": "Detailed description for project 2"
         }
+    },
+    "footer": {
+        "links": "Quick Links",
+        "about": "About me",
+        "skills": "Skills",
+        "projects": "Projects",
+        "contact": "Contact",
+        "builtWith": "Built with Next.js & Tailwind CSS",
+        "title": "Software Engineer",
+        "title2": "Full-Stack Web Development"
     }
 }

@@ -10,7 +10,7 @@ export default function ProjectsPage() {
     <main className="min-h-screen bg-white">
       <section className="mx-auto max-w-7xl px-6 py-24">
         {/* Header */}
-        <div className="mb-14 max-w-2xl">
+        <div className="mb-16 text-center">
           <h1 className="text-4xl font-bold text-gray-900">
             {t("title")}
           </h1>

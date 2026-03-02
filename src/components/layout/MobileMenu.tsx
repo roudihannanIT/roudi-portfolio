@@ -9,10 +9,10 @@ export default function MobileMenu() {
   const t = useTranslations("nav");
   
   const Nav_LINKS = [
-    { label: t("about"), href: "#about" },
+    { label: t("home"), href: "/" },
     { label: t("skills"), href: "/skills" },
     { label: t("projects"), href: "/projects" },
-    { label: t("books"), href: "#books" },
+    { label: t("about"), href: "#about" },
     { label: t("contact"), href: "#contact" },
 ];
 

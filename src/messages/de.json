@@ -4,7 +4,6 @@
         "about": "über mich",
         "skills": "fähigkeiten",
         "projects": "Projekte",
-        "books": "Meine Bücher",
         "contact": "Kontakt"
     },
     "Hero": {
@@ -36,5 +35,15 @@
             "shortDescriptionKey": "Kurze Beschreibung für Projekt 2",
             "descriptionKey": "Detaillierte Beschreibung für Projekt 2"
         }
+    },
+    "footer": {
+        "links": "Schnelllinks",
+        "about": "Über mich",
+        "skills": "Fähigkeiten",
+        "projects": "Projekte",
+        "contact": "Kontakt",
+        "builtWith": "Erstellt mit Next.js & Tailwind CSS",
+        "title": "Softwareentwickler",
+        "title2": "Full-Stack Webentwicklung"
     }
 }

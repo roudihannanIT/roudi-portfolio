@@ -1,31 +1,45 @@
 
 ```
 ├── 📁 public
+│   ├── 📁 projects
 │   ├── 🖼️ roudiLogo-black.png
 │   ├── 🖼️ roudiLogo-white.png
 │   └── 🖼️ roudiPic.webp
 ├── 📁 src
 │   ├── 📁 app
 │   │   ├── 📁 [locale]
+│   │   │   ├── 📁 projects
+│   │   │   │   └── 📄 page.tsx
+│   │   │   ├── 📁 skills
+│   │   │   │   └── 📄 page.tsx
 │   │   │   ├── 📄 layout.tsx
 │   │   │   └── 📄 page.tsx
 │   │   └── 🎨 globals.css
 │   ├── 📁 components
 │   │   ├── 📁 layout
+│   │   │   ├── 📄 Footer.tsx
 │   │   │   ├── 📄 LanguageSwitcher.tsx
 │   │   │   ├── 📄 MobileMenu.tsx
 │   │   │   ├── 📄 Navbar.tsx
 │   │   │   └── 📄 NavbarLinks.tsx
+│   │   ├── 📁 projects
+│   │   │   ├── 📄 ProjectCard.tsx
+│   │   │   └── 📄 ProjectGrid.tsx
 │   │   ├── 📁 sections
-│   │   ├── 📁 ui
-│   │   └── 📄 HeroSection.tsx
+│   │   │   ├── 📄 HeroSection.tsx
+│   │   │   ├── 📄 ProjectsSection.tsx
+│   │   │   └── 📄 SkillsPreview.tsx
+│   │   └── 📁 skills
+│   │       ├── 📄 SkillCard.tsx
+│   │       └── 📄 SkillsGrid.tsx
+│   ├── 📁 data
+│   │   ├── 📄 projects.ts
+│   │   └── 📄 skills.ts
 │   ├── 📁 i18n
 │   │   └── 📄 request.ts
-│   ├── 📁 lib
 │   ├── 📁 messages
 │   │   ├── ⚙️ de.json
 │   │   └── ⚙️ en.json
-│   ├── 📁 types
 │   └── 📄 middleware.ts
 ├── ⚙️ .gitignore
 ├── 📝 README.md

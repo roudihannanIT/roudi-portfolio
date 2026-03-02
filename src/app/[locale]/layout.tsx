@@ -2,6 +2,7 @@ import "@/app/globals.css";
 import Navbar from "@/components/layout/Navbar";
 import { NextIntlClientProvider } from "next-intl";
 import { notFound } from "next/navigation";
+import Footer from "@/components/layout/Footer";
 
 type Props = {
   children: React.ReactNode;
@@ -26,6 +27,7 @@ export default async function RootLayout({ children, params }: Props) {
         <NextIntlClientProvider locale={resolvedLocale} messages={messages}>
           <Navbar />
           {children}
+          <Footer />
         </NextIntlClientProvider>
       </body>
     </html>
