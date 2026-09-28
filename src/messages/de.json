@@ -28,8 +28,8 @@
         "title": "Projekte",
         "description": "Alle Projekte ansehen",
         "project1": {
-            "shortDescriptionKey": "Kurze Beschreibung für Projekt 1",
-            "descriptionKey": "Detaillierte Beschreibung für Projekt 1"
+            "shortDescriptionKey": "Enterprise-Buchungssystem-API, entwickelt mit Clean Architecture, SOLID-Prinzipien und RBAC-Sicherheit.",
+            "descriptionKey": "Eine robuste, skalierbare Backend-Lösung für komplexe Terminierungslogik zur Vermeidung von Doppelbuchungen. Erstellt mit Node.js, TypeScript und Prisma ORM in einer Docker-PostgreSQL-Umgebung."
         },
         "project2": {
             "shortDescriptionKey": "Kurze Beschreibung für Projekt 2",
@@ -58,7 +58,7 @@
         "availability": "Verfügbar für Remote-Arbeit",
         "emailDescription": "Für geschäftliche Anfragen.",
         "linkedinDescription": "Professionelles Profil auf LinkedIn.",
-        "githubDescription": "Check my projects on GitHub.",
+        "githubDescription": "Schauen Sie sich meine Projekte auf GitHub an.",
         "instagramDescription": "Folgen Sie mir auf Instagram.",
         "telegramDescription": "Schnellchat.",
         "whatsappDescription": "Schnelle Antwort."

@@ -12,22 +12,21 @@ export type Project = {
 export const projects: Project[] = [
   {
     id: 1,
-    title: "Project One",
+    title: "pro-booker-backend",
     shortDescriptionKey: "project1.shortDescriptionKey",
     descriptionKey: "project1.descriptionKey",
-    image: "/projects/project1.png",
-    techStack: ["Next.js", "TypeScript", "Tailwind CSS"],
-    githubUrl: "https://github.com/...",
-    liveUrl: "https://..."
-  },
-  {
-    id: 2,
-    title: "Project Two",
-    shortDescriptionKey: "project2.shortDescriptionKey",
-    descriptionKey: "project2.descriptionKey",
-    image: "/projects/project2.png",
-    techStack: ["Next.js", "TypeScript", "Tailwind CSS"],
-    githubUrl: "https://github.com/...",
-    liveUrl: "https://..."
+    image: "/probooker-image.png",
+    techStack: [
+      "Node.js",
+      "TypeScript",
+      "Express.js",
+      "Clean Architecture",
+      "Prisma",
+      "PostgreSQL",
+      "Docker",
+      "Jest"
+    ],
+    githubUrl: "https://github.com/roudihannanIT/pro-booker-backend",
+    liveUrl: ""
   }
 ];

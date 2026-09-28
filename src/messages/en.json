@@ -28,8 +28,8 @@
         "title": "Projects",
         "description": "View all projects",
         "project1": {
-            "shortDescriptionKey": "Short description for project 1",
-            "descriptionKey": "Detailed description for project 1"
+            "shortDescriptionKey": "Enterprise-grade booking management system API engineered with Clean Architecture, SOLID principles, and RBAC security.",
+            "descriptionKey": "A robust, scalable backend solution designed to handle complex scheduling logic and prevent double-bookings. Built with Node.js, TypeScript, and Prisma ORM on a containerized PostgreSQL environment with 90%+ test coverage."
         },
         "project2": {
             "shortDescriptionKey": "Short description for project 2",

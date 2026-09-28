@@ -73,7 +73,8 @@ export default function ProjectCard({
             GitHub
           </a>
 
-          <a
+          {liveUrl && (
+            <a
             href={liveUrl}
             target="_blank"
             rel="noopener noreferrer"
@@ -82,6 +83,8 @@ export default function ProjectCard({
             <ExternalLink className="h-4 w-4" />
             Live Demo
           </a>
+          )}
+          
         </div>
       </div>
     </div>
